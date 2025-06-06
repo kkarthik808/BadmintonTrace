@@ -86,3 +86,4 @@ class BallDetector:
                     if np.linalg.norm(np.array([x,y]) - self.xy_coordinates[-1]) > self.threshold_dist:
                         x, y = None, None
             self.xy_coordinates = np.append(self.xy_coordinates, np.array([[x, y]]), axis=0)
+print("Hello World")
